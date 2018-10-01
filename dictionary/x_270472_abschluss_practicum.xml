@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Practicum" max_length="40" name="x_270472_abschluss_practicum" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Attestation" max_length="32" name="u_attestation" reference="x_270472_abschluss_attestation" type="reference"/>
+        <element label="Name" max_length="60" name="u_name" type="string"/>
+        <element label="Subject" max_length="32" name="u_subject" reference="x_270472_abschluss_subject" type="reference"/>
+        <index name="index">
+            <element name="u_subject"/>
+        </index>
+        <index name="index2">
+            <element name="u_attestation"/>
+        </index>
+    </element>
+</database>

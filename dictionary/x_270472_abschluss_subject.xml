@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Subject" max_length="40" name="x_270472_abschluss_subject" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="48" label="Capacity" max_length="40" name="u_capacity" type="integer"/>
+        <element label="Exam" max_length="32" name="u_exam" reference="x_270472_abschluss_exam" type="reference"/>
+        <element label="Lecture" max_length="32" name="u_lecture" reference="x_270472_abschluss_lecture" type="reference"/>
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+        <element label="Professor" max_length="32" name="u_professor" reference="x_270472_abschluss_professor" type="reference"/>
+        <element label="Short Description" max_length="200" name="u_short_description" type="string"/>
+        <index name="index">
+            <element name="u_professor"/>
+        </index>
+        <index name="index2">
+            <element name="u_exam"/>
+        </index>
+        <index name="index3">
+            <element name="u_lecture"/>
+        </index>
+    </element>
+</database>

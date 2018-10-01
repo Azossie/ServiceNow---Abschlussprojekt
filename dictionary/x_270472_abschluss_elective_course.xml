@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Elective Course" max_length="40" name="x_270472_abschluss_elective_course" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="First Choice" mandatory="true" max_length="32" name="u_first_choice" reference="x_270472_abschluss_subject" reference_qual="u_capacity-- oper ---- value --^EQ" reference_qual_condition="u_capacity-- oper ---- value --^EQ" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Fourth Choice" mandatory="true" max_length="32" name="u_fourth_choice" reference="x_270472_abschluss_subject" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Second Choice" mandatory="true" max_length="32" name="u_second_choice" reference="x_270472_abschluss_subject" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" default="1" label="State" max_length="40" name="u_state" read_only="true" type="choice">
+            <choice>
+                <element label="Completed" value="2"/>
+                <element label="Rejected" value="3"/>
+                <element label="Request" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Third Choice" mandatory="true" max_length="32" name="u_third_choice" reference="x_270472_abschluss_subject" type="reference">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="u_first_choice"/>
+        </index>
+        <index name="index2">
+            <element name="u_fourth_choice"/>
+        </index>
+        <index name="index3">
+            <element name="u_second_choice"/>
+        </index>
+        <index name="index4">
+            <element name="u_third_choice"/>
+        </index>
+    </element>
+</database>

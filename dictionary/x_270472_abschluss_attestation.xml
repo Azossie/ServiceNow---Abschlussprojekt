@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Attestation" max_length="40" name="x_270472_abschluss_attestation" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Attest" max_length="40" name="u_attest" type="user_image"/>
+        <element choice="1" default="1" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element label="Failed" value="3"/>
+                <element label="In Progress" value="1"/>
+                <element label="Passed" value="2"/>
+            </choice>
+        </element>
+        <element label="Student" max_length="32" name="u_student" reference="x_270472_abschluss_student" type="reference"/>
+        <index name="index">
+            <element name="u_student"/>
+        </index>
+    </element>
+</database>
