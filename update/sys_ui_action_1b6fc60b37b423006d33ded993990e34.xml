@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Send Elective Course</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[if(current.u_student.u_credits < 60){		
+	current.u_state = 3;
+	current.u_student = gs.getUserID().toString();
+}
+else{	
+	current.u_state = 2;	
+	current.u_student = gs.getUserID().toString();
+}
+current.update();]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-01 19:35:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1b6fc60b37b423006d33ded993990e34</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Send Elective Course</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+        <sys_update_name>sys_ui_action_1b6fc60b37b423006d33ded993990e34</sys_update_name>
+        <sys_updated_by>abraham.lincoln</sys_updated_by>
+        <sys_updated_on>2018-10-01 20:25:29</sys_updated_on>
+        <table>x_270472_abschluss_elective_course</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

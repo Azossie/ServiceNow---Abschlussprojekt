@@ -53,8 +53,8 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-09-29 12:47:17</sys_created_on>
-        <sys_id>acbf5ade373023006d33ded993990ee8</sys_id>
+        <sys_created_on>2018-10-01 20:55:36</sys_created_on>
+        <sys_id>01a2ee8737f423006d33ded993990e5e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Number</sys_name>
         <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
         <sys_update_name>sys_dictionary_x_270472_abschluss_subject_number</sys_update_name>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-09-29 12:47:17</sys_updated_on>
+        <sys_updated_on>2018-10-01 20:55:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

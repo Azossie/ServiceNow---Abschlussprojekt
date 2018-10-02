@@ -5,13 +5,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-09-29 13:19:41</sys_created_on>
-            <sys_id>0f17e256377023006d33ded993990edc</sys_id>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>a5407107377423006d33ded993990ef3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-09-29 13:19:41</sys_updated_on>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_user</element>
             <position>1</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-09-29 13:19:41</sys_created_on>
-            <sys_id>8f17e256377023006d33ded993990edc</sys_id>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>2d407107377423006d33ded993990ef3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-09-29 13:19:41</sys_updated_on>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-09-29 13:19:41</sys_created_on>
-            <sys_id>0317e256377023006d33ded993990edd</sys_id>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>ad407107377423006d33ded993990ef3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-09-29 13:19:41</sys_updated_on>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,83 +47,111 @@
             <element>u_elective_courses</element>
             <position>3</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-09-29 13:19:41</sys_created_on>
-            <sys_id>8317e256377023006d33ded993990edd</sys_id>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>21407107377423006d33ded993990ef4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-09-29 13:19:41</sys_updated_on>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_elective_courses.u_state</element>
+            <position>4</position>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>a1407107377423006d33ded993990ef4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-09-29 13:19:41</sys_created_on>
-            <sys_id>0717e256377023006d33ded993990edd</sys_id>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>25407107377423006d33ded993990ef4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-09-29 13:19:41</sys_updated_on>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_credits</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 08:04:28</sys_created_on>
-            <sys_id>0122b336373023006d33ded993990e53</sys_id>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>a5407107377423006d33ded993990ef4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 08:04:28</sys_updated_on>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_behavior</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 08:22:50</sys_created_on>
-            <sys_id>0656fbf6373023006d33ded993990e5d</sys_id>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>29407107377423006d33ded993990ef4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 08:22:50</sys_updated_on>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_semester</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 13:02:06</sys_created_on>
-            <sys_id>0146fccf37b023006d33ded993990e8f</sys_id>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>a9407107377423006d33ded993990ef4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 13:02:06</sys_updated_on>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_priority</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 14:56:54</sys_created_on>
-            <sys_id>fa80d1cf37f023006d33ded993990e13</sys_id>
+            <sys_created_on>2018-10-01 17:15:33</sys_created_on>
+            <sys_id>2d407107377423006d33ded993990ef4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 14:56:54</sys_updated_on>
+            <sys_updated_on>2018-10-01 17:15:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state_elective_course</element>
+            <position>10</position>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-01 17:43:58</sys_created_on>
+            <sys_id>7dc6f10b377423006d33ded993990e46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_student" sys_domain="global" view="Default view">03172616377023006d33ded993990ed4</sys_ui_section>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-01 17:43:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

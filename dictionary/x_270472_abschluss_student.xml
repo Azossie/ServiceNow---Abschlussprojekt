@@ -3,17 +3,13 @@
     <element label="Student" max_length="40" name="x_270472_abschluss_student" type="collection">
         <element label="Behavior" max_length="32" name="u_behavior" reference="x_270472_abschluss_student_behavior" type="reference"/>
         <element label="Credits" max_length="40" name="u_credits" type="integer"/>
-        <element label="Elective Courses" max_length="32" name="u_elective_courses" reference="x_270472_abschluss_elective_course" type="reference"/>
         <element label="Priority" max_length="40" name="u_priority" type="integer"/>
         <element label="Semester" max_length="40" name="u_semester" type="integer"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="User" max_length="32" name="u_user" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
-            <element name="u_elective_courses"/>
-        </index>
-        <index name="index2">
             <element name="u_behavior"/>
         </index>
-        <index name="index3">
+        <index name="index2">
             <element name="u_user"/>
         </index>
     </element>

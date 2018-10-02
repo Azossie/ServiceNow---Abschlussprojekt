@@ -4,77 +4,77 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2588377a373023006d33ded993990e5a</list_id>
+            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5276268b37f423006d33ded993990ea8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 08:32:21</sys_created_on>
-            <sys_id>2188377a373023006d33ded993990e5b</sys_id>
+            <sys_created_on>2018-10-01 21:12:21</sys_created_on>
+            <sys_id>da76268b37f423006d33ded993990ea8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 08:32:21</sys_updated_on>
+            <sys_updated_on>2018-10-01 21:12:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_name</element>
-            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2588377a373023006d33ded993990e5a</list_id>
+            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5276268b37f423006d33ded993990ea8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 08:32:21</sys_created_on>
-            <sys_id>e588377a373023006d33ded993990e5b</sys_id>
+            <sys_created_on>2018-10-01 21:12:21</sys_created_on>
+            <sys_id>5276268b37f423006d33ded993990ea9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 08:32:21</sys_updated_on>
+            <sys_updated_on>2018-10-01 21:12:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_short_description</element>
-            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2588377a373023006d33ded993990e5a</list_id>
+            <element>u_description</element>
+            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5276268b37f423006d33ded993990ea8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 08:32:21</sys_created_on>
-            <sys_id>6988377a373023006d33ded993990e5b</sys_id>
+            <sys_created_on>2018-10-01 21:12:21</sys_created_on>
+            <sys_id>d276268b37f423006d33ded993990ea9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 08:32:21</sys_updated_on>
+            <sys_updated_on>2018-10-01 21:12:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_practicum</element>
-            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2588377a373023006d33ded993990e5a</list_id>
+            <element>u_exam</element>
+            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5276268b37f423006d33ded993990ea8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 08:32:21</sys_created_on>
-            <sys_id>e988377a373023006d33ded993990e5b</sys_id>
+            <sys_created_on>2018-10-01 21:12:21</sys_created_on>
+            <sys_id>5676268b37f423006d33ded993990ea9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 08:32:21</sys_updated_on>
+            <sys_updated_on>2018-10-01 21:12:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_professor.u_user.name</element>
-            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2588377a373023006d33ded993990e5a</list_id>
+            <element>u_professor</element>
+            <list_id display_value="x_270472_abschluss_subject" element="NULL" name="x_270472_abschluss_subject" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5276268b37f423006d33ded993990ea8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 08:32:21</sys_created_on>
-            <sys_id>6d88377a373023006d33ded993990e5b</sys_id>
+            <sys_created_on>2018-10-01 21:12:21</sys_created_on>
+            <sys_id>d676268b37f423006d33ded993990ea9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 08:32:21</sys_updated_on>
+            <sys_updated_on>2018-10-01 21:12:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -88,10 +88,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 08:32:21</sys_created_on>
+            <sys_created_on>2018-10-01 21:12:20</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2588377a373023006d33ded993990e5a</sys_id>
+            <sys_id>5276268b37f423006d33ded993990ea8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_270472_abschluss_subject</sys_name>
             <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
@@ -99,7 +99,7 @@
             <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
             <sys_update_name>sys_ui_list_x_270472_abschluss_subject_null</sys_update_name>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 08:32:21</sys_updated_on>
+            <sys_updated_on>2018-10-01 21:12:20</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
