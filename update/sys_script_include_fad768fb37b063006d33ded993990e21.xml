@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_270472_abschluss.AllreadyJoinedPracticum</api_name>
+        <client_callable>false</client_callable>
+        <description>If Student have allready joined Practicum, return true;</description>
+        <name>AllreadyJoinedPracticum</name>
+        <script><![CDATA[var AllreadyJoinedPracticum = Class.create();
+AllreadyJoinedPracticum.prototype = {
+	initialize: function() {
+		if(current.u_student_1 == gs.getUserID() ||current.u_student_2 == gs.getUserID() || current.u_student_3 == gs.getUserID() || current.u_student_3 == gs.getUserID() || current.u_student_4 == gs.getUserID() || current.u_student_5 == gs.getUserID() || current.u_student_6 == gs.getUserID() || current.u_student_7 == gs.getUserID() || current.u_student_8 == gs.getUserID() || current.u_student_9 == gs.getUserID() )
+			{
+			return true;
+		}
+		return false;
+	},
+	
+	type: 'AllreadyJoinedPracticum'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-03 19:57:53</sys_created_on>
+        <sys_id>fad768fb37b063006d33ded993990e21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AllreadyJoinedPracticum</sys_name>
+        <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+        <sys_update_name>sys_script_include_fad768fb37b063006d33ded993990e21</sys_update_name>
+        <sys_updated_by>christopher.kremkow</sys_updated_by>
+        <sys_updated_on>2018-10-03 19:57:53</sys_updated_on>
+    </sys_script_include>
+</record_update>
