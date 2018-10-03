@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_practicum_date" table="x_270472_abschluss_set_subject" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mo 10.15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:03:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c029c8eb37b423006d33ded993990e21</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:03:18</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fr 15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:04:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0c9c02f37b423006d33ded993990e57</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:05:26</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Di 10.15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:03:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c669c8eb37b423006d33ded993990e69</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:03:27</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mi 10.15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:03:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9479c8eb37b423006d33ded993990e23</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:03:36</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Do 10.15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:03:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2189c8eb37b423006d33ded993990e6a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:03:44</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fr 10.15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:03:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df89c8eb37b423006d33ded993990e23</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:04:51</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mo 15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc99c8eb37b423006d33ded993990ecc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:04:17</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Di 15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:04:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7a9c8eb37b423006d33ded993990ecd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:04:24</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mi 15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:04:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0db94ceb37b423006d33ded993990ecb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:04:33</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_practicum_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Do 15 Uhr</label>
+            <language>en</language>
+            <name>x_270472_abschluss_set_subject</name>
+            <sequence/>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:04:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1fb9402f37b423006d33ded993990e31</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:04:39</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_practicum_date</element>
+            <name>x_270472_abschluss_set_subject</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 23:03:04</sys_created_on>
+            <sys_id>4a698ceb37b423006d33ded993990e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_practicum_date</sys_name>
+            <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+            <sys_update_name>sys_choice_x_270472_abschluss_set_subject_u_practicum_date</sys_update_name>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 23:03:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

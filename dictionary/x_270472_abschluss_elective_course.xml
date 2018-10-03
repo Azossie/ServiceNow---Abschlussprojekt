@@ -27,7 +27,7 @@
                 <element label="Request" value="2"/>
             </choice>
         </element>
-        <element active="false" label="Student" max_length="32" name="u_student" read_only="true" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student" max_length="32" name="u_student" reference="x_270472_abschluss_student" type="reference"/>
         <element choice="1" label="Third Choice" max_length="32" name="u_third_choice" reference="x_270472_abschluss_subject" type="reference">
             <choice/>
         </element>

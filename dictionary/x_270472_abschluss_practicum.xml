@@ -2,10 +2,50 @@
 <database>
     <element label="Practicum" max_length="40" name="x_270472_abschluss_practicum" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Attestation" max_length="32" name="u_attestation" reference="x_270472_abschluss_attestation" type="reference"/>
         <element label="Name" max_length="60" name="u_name" type="string"/>
+        <element label="Student_1" max_length="32" name="u_student_1" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student_10" max_length="32" name="u_student_10" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student_2" max_length="32" name="u_student_2" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student_3" max_length="32" name="u_student_3" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student_4" max_length="32" name="u_student_4" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student_5" max_length="32" name="u_student_5" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student_6" max_length="32" name="u_student_6" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student_7" max_length="32" name="u_student_7" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student_8" max_length="32" name="u_student_8" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Student_9" max_length="32" name="u_student_9" reference="x_270472_abschluss_student" type="reference"/>
+        <element label="Subject" max_length="32" name="u_subject" reference="x_270472_abschluss_subject" type="reference"/>
         <index name="index">
-            <element name="u_attestation"/>
+            <element name="u_subject"/>
+        </index>
+        <index name="index2">
+            <element name="u_student_7"/>
+        </index>
+        <index name="index3">
+            <element name="u_student_6"/>
+        </index>
+        <index name="index4">
+            <element name="u_student_9"/>
+        </index>
+        <index name="index5">
+            <element name="u_student_8"/>
+        </index>
+        <index name="index6">
+            <element name="u_student_10"/>
+        </index>
+        <index name="index7">
+            <element name="u_student_3"/>
+        </index>
+        <index name="index8">
+            <element name="u_student_2"/>
+        </index>
+        <index name="index9">
+            <element name="u_student_5"/>
+        </index>
+        <index name="index10">
+            <element name="u_student_4"/>
+        </index>
+        <index name="index11">
+            <element name="u_student_1"/>
         </index>
     </element>
 </database>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Set Subject" max_length="40" name="x_270472_abschluss_set_subject" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Lecture Date" mandatory="true" max_length="40" name="u_lecture_date" type="choice">
+            <choice>
+                <element label="Di 08.15 - 9.45 Uhr" value="2"/>
+                <element label="Di 13.45 - 14.30 Uhr" value="7"/>
+                <element label="Do 08.15 - 9.45 Uhr" value="4"/>
+                <element label="Do 13.45 - 14.30 Uhr" value="9"/>
+                <element label="Fr 08.15 - 9.45 Uhr" value="5"/>
+                <element label="Fr 13.45 - 14.30 Uhr" value="10"/>
+                <element label="Mi 08.15 - 9.45 Uhr" value="3"/>
+                <element label="Mi 13.45 - 14.30 Uhr" value="8"/>
+                <element label="Mo 08.15 - 9.45 Uhr" value="1"/>
+                <element label="Mo 13.45 - 14.30 Uhr" value="6"/>
+            </choice>
+        </element>
+        <element choice="1" label="Practicum Date" mandatory="true" max_length="40" name="u_practicum_date" type="choice">
+            <choice>
+                <element label="Di 10.15 Uhr" value="2"/>
+                <element label="Di 15 Uhr" value="7"/>
+                <element label="Do 10.15 Uhr" value="4"/>
+                <element label="Do 15 Uhr" value="9"/>
+                <element label="Fr 10.15 Uhr" value="5"/>
+                <element label="Fr 15 Uhr" value="10"/>
+                <element label="Mi 10.15 Uhr" value="3"/>
+                <element label="Mi 15 Uhr" value="8"/>
+                <element label="Mo 10.15 Uhr" value="1"/>
+                <element label="Mo 15 Uhr" value="6"/>
+            </choice>
+        </element>
+        <element label="Subject" mandatory="true" max_length="32" name="u_subject" reference="x_270472_abschluss_subject" type="reference"/>
+        <index name="index">
+            <element name="u_subject"/>
+        </index>
+    </element>
+</database>

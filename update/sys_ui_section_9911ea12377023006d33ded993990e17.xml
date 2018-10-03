@@ -2,142 +2,156 @@
 <record_update>
     <sys_ui_section caption="" section_id="9911ea12377023006d33ded993990e17" sys_domain="global" table="x_270472_abschluss_elective_course" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_first_choice</element>
+            <element>number</element>
             <position>0</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 10:51:33</sys_created_on>
-            <sys_id>ac68508f377023006d33ded993990ef9</sys_id>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>177d9313377423006d33ded993990e28</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 10:51:33</sys_updated_on>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_first_choice</element>
+            <position>1</position>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>9b7d9313377423006d33ded993990e28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_second_choice</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 10:51:33</sys_created_on>
-            <sys_id>2068508f377023006d33ded993990efa</sys_id>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>1f7d9313377423006d33ded993990e28</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 10:51:33</sys_updated_on>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_third_choice</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 10:51:33</sys_created_on>
-            <sys_id>a068508f377023006d33ded993990efa</sys_id>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>9f7d9313377423006d33ded993990e28</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 10:51:33</sys_updated_on>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_fourth_choice</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 10:51:33</sys_created_on>
-            <sys_id>2468508f377023006d33ded993990efa</sys_id>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>137d9313377423006d33ded993990e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 10:51:33</sys_updated_on>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
-            <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 10:51:33</sys_created_on>
-            <sys_id>a468508f377023006d33ded993990efa</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
-            <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 10:51:33</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_state</element>
             <position>5</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 18:35:43</sys_created_on>
-            <sys_id>cca24ecf377423006d33ded993990e09</sys_id>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>937d9313377423006d33ded993990e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 18:35:43</sys_updated_on>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_student</element>
             <position>6</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 19:29:04</sys_created_on>
-            <sys_id>e5de8ac737b423006d33ded993990e50</sys_id>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>177d9313377423006d33ded993990e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 19:29:04</sys_updated_on>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>7</position>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>977d9313377423006d33ded993990e29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_fifth_choice</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 20:59:16</sys_created_on>
-            <sys_id>ba732ac737f423006d33ded993990efa</sys_id>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>1b7d9313377423006d33ded993990e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 20:59:16</sys_updated_on>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_sixth_choice</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 20:59:50</sys_created_on>
-            <sys_id>4f93aec737f423006d33ded993990ede</sys_id>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>9b7d9313377423006d33ded993990e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 20:59:50</sys_updated_on>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_seventh_choice</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-01 21:00:44</sys_created_on>
-            <sys_id>98d3e20b37f423006d33ded993990e73</sys_id>
+            <sys_created_on>2018-10-02 19:51:11</sys_created_on>
+            <sys_id>1f7d9313377423006d33ded993990e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_elective_course" sys_domain="global" view="Default view">9911ea12377023006d33ded993990e17</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-01 21:00:44</sys_updated_on>
+            <sys_updated_on>2018-10-02 19:51:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

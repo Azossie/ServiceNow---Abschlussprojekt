@@ -8,7 +8,7 @@
         <action_query>false</action_query>
         <action_update>false</action_update>
         <active>true</active>
-        <add_message>true</add_message>
+        <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
@@ -18,8 +18,8 @@
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
-        <message><![CDATA[<p>test</p>]]></message>
-        <name>Set Students to Requested Students List</name>
+        <message/>
+        <name>Allocate Student to Subject</name>
         <order>200</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,30 +29,87 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+// Add your code here
 
-	// Add your code here
-if(current.u_state == 2){
-var gr = new GlideRecord("x_270472_abschluss_m2m_students_subjects"); 
-gr.initialize();	
-gr.setValue('subject', current.u_first_choice);
-gr.setValue('student', gs.getUserID());
-gr.insert();
-var gr1 = new GlideRecord("x_270472_abschluss_m2m_students_subjects"); 
-gr1.initialize();	
-gr1.setValue('subject', current.u_second_choice);
-gr1.setValue('student', gs.getUserID());
-gr1.insert();
-var gr2 = new GlideRecord("x_270472_abschluss_m2m_students_subjects"); 
-gr2.initialize();	
-gr2.setValue('subject', current.u_third_choice);
-gr2.setValue('student', gs.getUserID());
-gr2.insert();
-var gr3 = new GlideRecord("x_270472_abschluss_m2m_students_subjects"); 
-gr3.initialize();	
-gr3.setValue('subject', current.u_fourth_choice);
-gr3.setValue('student', gs.getUserID());
-gr3.insert();
+
+var behaviorIndicator = 0;
+if(current.u_student.u_behavior.u_negative_input == 1) {
+	behaviorIndicator--;
 }
+if(current.u_student.u_behavior.u_positive_input == 1){
+	behaviorIndicator++;
+}	
+
+var priority = 4;	
+priority = priority + behaviorIndicator;		
+	
+
+var gr = new GlideRecord("x_270472_abschluss_participants_subject"); 	
+gr.initialize();	
+gr.setValue('u_student',current.u_student);
+gr.setValue('u_subject', current.u_first_choice);
+gr.setValue('u_priority', priority);
+gr.insert();	
+var gp = new GlideRecord("x_270472_abschluss_subject");
+	gp.addQuery('u_name',  current.u_first_choice.u_name);
+	gp.query();
+	gp.next();
+	gp.u_capacity = gp.u_capacity-1;
+	gp.update();
+priority = 3;	
+priority = priority + behaviorIndicator;	
+
+
+var gr1 = new GlideRecord("x_270472_abschluss_participants_subject"); 
+gr1.initialize();	
+gr1.setValue('u_student',current.u_student);
+gr1.setValue('u_subject', current.u_second_choice);
+gr1.setValue('u_priority', priority);
+gr1.insert();	
+	gp = new GlideRecord("x_270472_abschluss_subject");
+	gp.addQuery('u_name',  current.u_second_choice.u_name);
+	gp.query();
+	gp.next();
+	gp.u_capacity = gp.u_capacity-1;
+	gp.update();
+	
+priority = 2;	
+priority = priority + behaviorIndicator;	
+	
+var gr2 = new GlideRecord("x_270472_abschluss_participants_subject"); 
+gr2.initialize();	
+gr2.setValue('u_student',current.u_student);
+gr2.setValue('u_subject', current.u_third_choice);
+gr2.setValue('u_priority', priority);
+gr2.insert();	
+	gp = new GlideRecord("x_270472_abschluss_subject");
+	gp.addQuery('u_name',  current.u_third_choice.u_name);
+	gp.query();
+	gp.next();
+	gp.u_capacity = gp.u_capacity-1;
+	gp.update();
+priority = 1;	
+priority = priority + behaviorIndicator;	
+	
+
+var gr3 = new GlideRecord("x_270472_abschluss_participants_subject"); 
+gr3.initialize();	
+gr3.setValue('u_student',current.u_student);
+gr3.setValue('u_subject', current.u_fourth_choice);
+gr3.setValue('u_priority', priority);
+gr3.insert();
+	gp = new GlideRecord("x_270472_abschluss_subject");
+	gp.addQuery('u_name',  current.u_fourth_choice.u_name);
+	gp.query();
+	gp.next();
+	gp.u_capacity = gp.u_capacity-1;
+	gp.update();
+	
+	
+	
+	
+	
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
@@ -60,16 +117,16 @@ gr3.insert();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a226ec8737b023006d33ded993990e64</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Set Students to Requested Students List</sys_name>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>Allocate Student to Subject</sys_name>
         <sys_overrides/>
         <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
         <sys_policy/>
         <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
         <sys_update_name>sys_script_a226ec8737b023006d33ded993990e64</sys_update_name>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-01 20:04:17</sys_updated_on>
-        <template/>
+        <sys_updated_on>2018-10-02 19:50:02</sys_updated_on>
+        <template>u_first_choice.u_capacity=^EQ</template>
         <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=a226ec8737b023006d33ded993990e64"/>
