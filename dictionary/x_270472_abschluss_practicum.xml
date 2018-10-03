@@ -12,6 +12,12 @@
         </element>
         <element label="Name" max_length="60" name="u_name" type="string"/>
         <element label="Starttime" max_length="40" name="u_starttime" type="string"/>
+        <element choice="1" default="1" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element label="Closed" value="2"/>
+                <element label="Open" value="1"/>
+            </choice>
+        </element>
         <element label="Student_1" max_length="32" name="u_student_1" reference="x_270472_abschluss_student" type="reference"/>
         <element label="Student_10" max_length="32" name="u_student_10" reference="x_270472_abschluss_student" type="reference"/>
         <element label="Student_2" max_length="32" name="u_student_2" reference="x_270472_abschluss_student" type="reference"/>
