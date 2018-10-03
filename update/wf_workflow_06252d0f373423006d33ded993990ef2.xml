@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["30b6142f37f423006d33ded993990e48"]}</activity_stages>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["7128b22b37bc23006d33ded993990eea"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +10,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description>The Professor has decided on which day and time his lecture and practicum will take place. This workflow will create the dates assigned to the lecture and the practicum</description>
-        <expected_sequences>30b6142f37f423006d33ded993990e43,3cb6142f37f423006d33ded993990e48,78b6142f37f423006d33ded993990e45,f0b6142f37f423006d33ded993990e44,4d0a20a3377823006d33ded993990e50,a3e7b0ab377823006d33ded993990ed9,30b6142f37f423006d33ded993990e48</expected_sequences>
+        <expected_sequences>ed28b22b37bc23006d33ded993990ee8,b6e9fe2b37bc23006d33ded993990ec2,7128b22b37bc23006d33ded993990eea</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>30b6142f37f423006d33ded993990e43,3cb6142f37f423006d33ded993990e48,78b6142f37f423006d33ded993990e45,b0b6142f37f423006d33ded993990e47,f0b6142f37f423006d33ded993990e44,4d0a20a3377823006d33ded993990e50,a3e7b0ab377823006d33ded993990ed9,30b6142f37f423006d33ded993990e48</full_sequences>
+        <full_sequences>ed28b22b37bc23006d33ded993990ee8,b6e9fe2b37bc23006d33ded993990ec2,7128b22b37bc23006d33ded993990eea</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Set Dates to Subject</name>
@@ -28,13 +28,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">30b6142f37f423006d33ded993990e43</start>
+        <start display_value="Begin">ed28b22b37bc23006d33ded993990ee8</start>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:08</sys_created_on>
-        <sys_id>b0b6142f37f423006d33ded993990e41</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>e128b22b37bc23006d33ded993990ee7</sys_id>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 03:11:34</sys_updated_on>
+        <sys_updated_on>2018-10-03 12:00:47</sys_updated_on>
         <table>x_270472_abschluss_set_subject</table>
         <timezone/>
         <validated>true</validated>
@@ -80,21 +80,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>30b6142f37f423006d33ded993990e43</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>ed28b22b37bc23006d33ded993990ee8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Set Dates to Subject">b0b6142f37f423006d33ded993990e41</workflow_version>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=30b6142f37f423006d33ded993990e43"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ed28b22b37bc23006d33ded993990ee8"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">30b6142f37f423006d33ded993990e43</activity>
+        <activity display_value="Begin">ed28b22b37bc23006d33ded993990ee8</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -108,11 +108,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>b8b6142f37f423006d33ded993990e43</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>3928b22b37bc23006d33ded993990ee9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -130,30 +130,58 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>3cb6142f37f423006d33ded993990e48</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>3d28b22b37bc23006d33ded993990eea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 01:25:49</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Set Dates to Subject">b0b6142f37f423006d33ded993990e41</workflow_version>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
         <x>16</x>
         <y>184</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=3cb6142f37f423006d33ded993990e48"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3d28b22b37bc23006d33ded993990eea"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3cb6142f37f423006d33ded993990e48</document_key>
+        <document_key>3d28b22b37bc23006d33ded993990eea</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>3128b22b37bc23006d33ded993990eeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>christopher.kremkow</sys_updated_by>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3d28b22b37bc23006d33ded993990eea</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>3928b22b37bc23006d33ded993990eeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>christopher.kremkow</sys_updated_by>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3d28b22b37bc23006d33ded993990eea</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>34b6142f37f423006d33ded993990e49</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>f928b22b37bc23006d33ded993990eeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -174,71 +202,43 @@
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3cb6142f37f423006d33ded993990e48</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>70b6142f37f423006d33ded993990e49</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>3cb6142f37f423006d33ded993990e48</document_key>
+        <document_key>3d28b22b37bc23006d33ded993990eea</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>bcb6142f37f423006d33ded993990e48</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>3128b22b37bc23006d33ded993990eeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3cb6142f37f423006d33ded993990e48</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>bcb6142f37f423006d33ded993990e48</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
-        <value/>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>3cb6142f37f423006d33ded993990e48</document_key>
+        <document_key>3d28b22b37bc23006d33ded993990eea</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>70b6142f37f423006d33ded993990e49</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>3928b22b37bc23006d33ded993990eeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>3cb6142f37f423006d33ded993990e48</document_key>
+        <document_key>3d28b22b37bc23006d33ded993990eea</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>34b6142f37f423006d33ded993990e49</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>f928b22b37bc23006d33ded993990eeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -258,7 +258,7 @@
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check Attestation">3cb6142f37f423006d33ded993990e48</activity>
+        <activity display_value="Check Attestation">3d28b22b37bc23006d33ded993990eea</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -272,14 +272,14 @@
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>f8b6142f37f423006d33ded993990e49</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>f128b22b37bc23006d33ded993990eec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check Attestation">3cb6142f37f423006d33ded993990e48</activity>
+        <activity display_value="Check Attestation">3d28b22b37bc23006d33ded993990eea</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -293,11 +293,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>78b6142f37f423006d33ded993990e49</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7128b22b37bc23006d33ded993990eec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -315,58 +315,58 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>78b6142f37f423006d33ded993990e45</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>f528f22b37bc23006d33ded993990ecd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 02:25:31</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Set Dates to Subject">b0b6142f37f423006d33ded993990e41</workflow_version>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
         <x>252</x>
         <y>215</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=78b6142f37f423006d33ded993990e45"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f528f22b37bc23006d33ded993990ecd"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>78b6142f37f423006d33ded993990e45</document_key>
+        <document_key>f528f22b37bc23006d33ded993990ecd</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>30b6142f37f423006d33ded993990e46</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>3d28f22b37bc23006d33ded993990ecd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>78b6142f37f423006d33ded993990e45</document_key>
+        <document_key>f528f22b37bc23006d33ded993990ecd</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>7cb6142f37f423006d33ded993990e45</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7928f22b37bc23006d33ded993990ecd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>78b6142f37f423006d33ded993990e45</document_key>
+        <document_key>f528f22b37bc23006d33ded993990ecd</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>f0b6142f37f423006d33ded993990e46</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>fd28f22b37bc23006d33ded993990ecd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -385,43 +385,43 @@ function ifScript() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>78b6142f37f423006d33ded993990e45</document_key>
+        <document_key>f528f22b37bc23006d33ded993990ecd</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>7cb6142f37f423006d33ded993990e45</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7928f22b37bc23006d33ded993990ecd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>78b6142f37f423006d33ded993990e45</document_key>
+        <document_key>f528f22b37bc23006d33ded993990ecd</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>30b6142f37f423006d33ded993990e46</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>3d28f22b37bc23006d33ded993990ecd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>78b6142f37f423006d33ded993990e45</document_key>
+        <document_key>f528f22b37bc23006d33ded993990ecd</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>f0b6142f37f423006d33ded993990e46</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>fd28f22b37bc23006d33ded993990ecd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -439,7 +439,7 @@ function ifScript() {&#13;
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check Lecture ">78b6142f37f423006d33ded993990e45</activity>
+        <activity display_value="Check Lecture ">f528f22b37bc23006d33ded993990ecd</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -453,14 +453,14 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>3cb6142f37f423006d33ded993990e46</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>f128f22b37bc23006d33ded993990ece</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check Lecture ">78b6142f37f423006d33ded993990e45</activity>
+        <activity display_value="Check Lecture ">f528f22b37bc23006d33ded993990ecd</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -474,11 +474,11 @@ function ifScript() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>b8b6142f37f423006d33ded993990e46</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7528f22b37bc23006d33ded993990ece</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -496,30 +496,30 @@ function ifScript() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>b0b6142f37f423006d33ded993990e47</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>f528f22b37bc23006d33ded993990ecf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 01:26:04</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Set Dates to Subject">b0b6142f37f423006d33ded993990e41</workflow_version>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
         <x>79</x>
         <y>404</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b0b6142f37f423006d33ded993990e47"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f528f22b37bc23006d33ded993990ecf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b0b6142f37f423006d33ded993990e47</document_key>
+        <document_key>f528f22b37bc23006d33ded993990ecf</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>34b6142f37f423006d33ded993990e47</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7928f22b37bc23006d33ded993990ecf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:03:13</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>var gr1 = new GlideRecord('x_270472_abschluss_participants_subject');&#13;
 gr1.addQuery('u_subject', current.u_subject);&#13;
 gr1.query();&#13;
@@ -535,15 +535,15 @@ while(gr1.next()){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>b0b6142f37f423006d33ded993990e47</document_key>
+        <document_key>f528f22b37bc23006d33ded993990ecf</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>34b6142f37f423006d33ded993990e47</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7928f22b37bc23006d33ded993990ecf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:03:13</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>var gr1 = new GlideRecord('x_270472_abschluss_participants_subject');&#13;
 gr1.addQuery('u_subject', current.u_subject);&#13;
 gr1.query();&#13;
@@ -558,7 +558,7 @@ while(gr1.next()){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Create Attestion for each Student">b0b6142f37f423006d33ded993990e47</activity>
+        <activity display_value="Create Attestion for each Student">f528f22b37bc23006d33ded993990ecf</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -572,11 +572,11 @@ while(gr1.next()){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>78b6142f37f423006d33ded993990e47</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7d28f22b37bc23006d33ded993990ecf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -594,30 +594,30 @@ while(gr1.next()){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>f0b6142f37f423006d33ded993990e44</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>f128f22b37bc23006d33ded993990ed0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 01:26:05</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Set Dates to Subject">b0b6142f37f423006d33ded993990e41</workflow_version>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
         <x>450</x>
         <y>465</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f0b6142f37f423006d33ded993990e44"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f128f22b37bc23006d33ded993990ed0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f0b6142f37f423006d33ded993990e44</document_key>
+        <document_key>f128f22b37bc23006d33ded993990ed0</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>f4b6142f37f423006d33ded993990e44</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7528f22b37bc23006d33ded993990ed0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 01:21:03</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>if(current.u_lecture_date == 1){&#13;
 	var date1 = new GlideDateTime();&#13;
 	var date = "2018-10-08 08:15:00";&#13;
@@ -772,15 +772,15 @@ else if(current.u_lecture_date ==10){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f0b6142f37f423006d33ded993990e44</document_key>
+        <document_key>f128f22b37bc23006d33ded993990ed0</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>f4b6142f37f423006d33ded993990e44</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7528f22b37bc23006d33ded993990ed0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 01:21:03</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>if(current.u_lecture_date == 1){&#13;
 	var date1 = new GlideDateTime();&#13;
 	var date = "2018-10-08 08:15:00";&#13;
@@ -934,7 +934,7 @@ else if(current.u_lecture_date ==10){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Create Lecture Dates">f0b6142f37f423006d33ded993990e44</activity>
+        <activity display_value="Create Lecture Dates">f128f22b37bc23006d33ded993990ed0</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -948,11 +948,11 @@ else if(current.u_lecture_date ==10){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>b0b6142f37f423006d33ded993990e45</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7928f22b37bc23006d33ded993990ed0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -970,30 +970,30 @@ else if(current.u_lecture_date ==10){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 02:26:42</sys_created_on>
-        <sys_id>a3e7b0ab377823006d33ded993990ed9</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>f928f22b37bc23006d33ded993990ece</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 03:07:11</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:59:51</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Set Dates to Subject">b0b6142f37f423006d33ded993990e41</workflow_version>
-        <x>815</x>
-        <y>59</y>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
+        <x>708</x>
+        <y>54</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=a3e7b0ab377823006d33ded993990ed9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f928f22b37bc23006d33ded993990ece"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a3e7b0ab377823006d33ded993990ed9</document_key>
+        <document_key>f928f22b37bc23006d33ded993990ece</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 02:26:42</sys_created_on>
-        <sys_id>f808742f377823006d33ded993990eaa</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7d28f22b37bc23006d33ded993990ece</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 03:07:11</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>if(current.u_practicum_date == 1){&#13;
 	var date1 = new GlideDateTime();&#13;
 	var date = "2018-10-08 10:15:00";&#13;
@@ -1200,15 +1200,15 @@ else if(current.u_practicum_date ==10){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>a3e7b0ab377823006d33ded993990ed9</document_key>
+        <document_key>f928f22b37bc23006d33ded993990ece</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 02:26:42</sys_created_on>
-        <sys_id>f808742f377823006d33ded993990eaa</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7d28f22b37bc23006d33ded993990ece</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 03:07:11</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>if(current.u_practicum_date == 1){&#13;
 	var date1 = new GlideDateTime();&#13;
 	var date = "2018-10-08 10:15:00";&#13;
@@ -1414,7 +1414,7 @@ else if(current.u_practicum_date ==10){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Create Practicum Dates">a3e7b0ab377823006d33ded993990ed9</activity>
+        <activity display_value="Create Practicum Dates">f928f22b37bc23006d33ded993990ece</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1428,11 +1428,11 @@ else if(current.u_practicum_date ==10){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 02:26:42</sys_created_on>
-        <sys_id>3808742f377823006d33ded993990eab</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7128f22b37bc23006d33ded993990ecf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 02:26:42</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1450,30 +1450,30 @@ else if(current.u_practicum_date ==10){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 01:25:43</sys_created_on>
-        <sys_id>4d0a20a3377823006d33ded993990e50</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7928b22b37bc23006d33ded993990eec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 03:11:04</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:59:57</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Set Dates to Subject">b0b6142f37f423006d33ded993990e41</workflow_version>
-        <x>574</x>
-        <y>147</y>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
+        <x>531</x>
+        <y>250</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=4d0a20a3377823006d33ded993990e50"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7928b22b37bc23006d33ded993990eec"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>4d0a20a3377823006d33ded993990e50</document_key>
+        <document_key>7928b22b37bc23006d33ded993990eec</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 01:25:43</sys_created_on>
-        <sys_id>ef0a20e3377823006d33ded993990e0e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7d28b22b37bc23006d33ded993990eec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 02:52:42</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>var gr1 = new GlideRecord('x_270472_abschluss_participants_subject');&#13;
 gr1.addQuery('u_subject', current.u_subject);&#13;
 gr1.query();&#13;
@@ -1491,15 +1491,15 @@ for(var i = 1; i &lt;getPracticumCount + 1; i++){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>4d0a20a3377823006d33ded993990e50</document_key>
+        <document_key>7928b22b37bc23006d33ded993990eec</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 01:25:43</sys_created_on>
-        <sys_id>ef0a20e3377823006d33ded993990e0e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7d28b22b37bc23006d33ded993990eec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 02:52:42</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <value>var gr1 = new GlideRecord('x_270472_abschluss_participants_subject');&#13;
 gr1.addQuery('u_subject', current.u_subject);&#13;
 gr1.query();&#13;
@@ -1516,7 +1516,7 @@ for(var i = 1; i &lt;getPracticumCount + 1; i++){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Create Practicum Groups">4d0a20a3377823006d33ded993990e50</activity>
+        <activity display_value="Create Practicum Groups">7928b22b37bc23006d33ded993990eec</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1530,11 +1530,11 @@ for(var i = 1; i &lt;getPracticumCount + 1; i++){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 01:25:43</sys_created_on>
-        <sys_id>6f0a20e3377823006d33ded993990e0f</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7128f22b37bc23006d33ded993990ecd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 01:25:43</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -1552,131 +1552,199 @@ for(var i = 1; i &lt;getPracticumCount + 1; i++){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>30b6142f37f423006d33ded993990e48</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>7128b22b37bc23006d33ded993990eea</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Set Dates to Subject">b0b6142f37f423006d33ded993990e41</workflow_version>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
         <x>839</x>
         <y>222</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=30b6142f37f423006d33ded993990e48"/>
-    <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b8b6142f37f423006d33ded993990e43</condition>
-        <from display_value="Begin">30b6142f37f423006d33ded993990e43</from>
+    <sys_variable_value action="delete_multiple" query="document_key=7128b22b37bc23006d33ded993990eea"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Subject Capacity</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 03:11:12</sys_created_on>
-        <sys_id>2c3281a337b823006d33ded993990eb1</sys_id>
+        <sys_created_on>2018-10-03 11:54:45</sys_created_on>
+        <sys_id>b6e9fe2b37bc23006d33ded993990ec2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>christopher.kremkow</sys_updated_by>
+        <sys_updated_on>2018-10-03 11:59:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
+        <x>185</x>
+        <y>103</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b6e9fe2b37bc23006d33ded993990ec2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b6e9fe2b37bc23006d33ded993990ec2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-03 11:54:45</sys_created_on>
+        <sys_id>790afe2b37bc23006d33ded993990eca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>christopher.kremkow</sys_updated_by>
+        <sys_updated_on>2018-10-03 11:59:19</sys_updated_on>
+        <value>var gr = new GlideRecord('x_270472_abschluss_subject');&#13;
+gr.addQuery('sys_id',current.u_subject);&#13;
+gr.query();&#13;
+gr.next();&#13;
+gr.u_capacity = current.u_capacity;&#13;
+gr.u_max_capacity = current.u_capacity;&#13;
+gr.update();</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b6e9fe2b37bc23006d33ded993990ec2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-03 11:54:45</sys_created_on>
+        <sys_id>790afe2b37bc23006d33ded993990eca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>christopher.kremkow</sys_updated_by>
+        <sys_updated_on>2018-10-03 11:59:19</sys_updated_on>
+        <value>var gr = new GlideRecord('x_270472_abschluss_subject');&#13;
+gr.addQuery('sys_id',current.u_subject);&#13;
+gr.query();&#13;
+gr.next();&#13;
+gr.u_capacity = current.u_capacity;&#13;
+gr.u_max_capacity = current.u_capacity;&#13;
+gr.update();</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Subject Capacity">b6e9fe2b37bc23006d33ded993990ec2</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-03 11:54:45</sys_created_on>
+        <sys_id>710afe2b37bc23006d33ded993990ecb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 03:11:12</sys_updated_on>
-        <to display_value="Check Attestation">3cb6142f37f423006d33ded993990e48</to>
+        <sys_updated_on>2018-10-03 11:54:45</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">f128f22b37bc23006d33ded993990ece</condition>
+        <from display_value="Check Lecture ">f528f22b37bc23006d33ded993990ecd</from>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-03 11:46:33</sys_created_on>
+        <sys_id>3528f22b37bc23006d33ded993990ed2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>christopher.kremkow</sys_updated_by>
+        <sys_updated_on>2018-10-03 11:46:33</sys_updated_on>
+        <to display_value="Create Lecture Dates">f128f22b37bc23006d33ded993990ed0</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">78b6142f37f423006d33ded993990e49</condition>
-        <from display_value="Check Attestation">3cb6142f37f423006d33ded993990e48</from>
+        <condition display_value="Always">710afe2b37bc23006d33ded993990ecb</condition>
+        <from display_value="Set Subject Capacity">b6e9fe2b37bc23006d33ded993990ec2</from>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>34b6142f37f423006d33ded993990e4b</sys_id>
+        <sys_created_on>2018-10-03 11:59:56</sys_created_on>
+        <sys_id>353bb2ab37bc23006d33ded993990e75</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
-        <to display_value="Check Lecture ">78b6142f37f423006d33ded993990e45</to>
+        <sys_updated_on>2018-10-03 11:59:56</sys_updated_on>
+        <to display_value="End">7128b22b37bc23006d33ded993990eea</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">b0b6142f37f423006d33ded993990e45</condition>
-        <from display_value="Create Lecture Dates">f0b6142f37f423006d33ded993990e44</from>
+        <condition display_value="Always">7928f22b37bc23006d33ded993990ed0</condition>
+        <from display_value="Create Lecture Dates">f128f22b37bc23006d33ded993990ed0</from>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 03:11:07</sys_created_on>
-        <sys_id>572281a337b823006d33ded993990e48</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>3d28f22b37bc23006d33ded993990ed1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 03:11:07</sys_updated_on>
-        <to display_value="Create Practicum Groups">4d0a20a3377823006d33ded993990e50</to>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
+        <to display_value="Create Practicum Groups">7928b22b37bc23006d33ded993990eec</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">3cb6142f37f423006d33ded993990e46</condition>
-        <from display_value="Check Lecture ">78b6142f37f423006d33ded993990e45</from>
+        <condition display_value="Always">7d28f22b37bc23006d33ded993990ecf</condition>
+        <from display_value="Create Attestion for each Student">f528f22b37bc23006d33ded993990ecf</from>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:08:47</sys_created_on>
-        <sys_id>6c789c2f37f423006d33ded993990edb</sys_id>
+        <sys_created_on>2018-10-03 11:46:33</sys_created_on>
+        <sys_id>3d28f22b37bc23006d33ded993990ed2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:08:47</sys_updated_on>
-        <to display_value="Create Lecture Dates">f0b6142f37f423006d33ded993990e44</to>
+        <sys_updated_on>2018-10-03 11:46:33</sys_updated_on>
+        <to display_value="Check Lecture ">f528f22b37bc23006d33ded993990ecd</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">78b6142f37f423006d33ded993990e47</condition>
-        <from display_value="Create Attestion for each Student">b0b6142f37f423006d33ded993990e47</from>
+        <condition display_value="Yes">7528f22b37bc23006d33ded993990ece</condition>
+        <from display_value="Check Lecture ">f528f22b37bc23006d33ded993990ecd</from>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>78b6142f37f423006d33ded993990e4b</sys_id>
+        <sys_created_on>2018-10-03 11:46:33</sys_created_on>
+        <sys_id>b528f22b37bc23006d33ded993990ed2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
-        <to display_value="Check Lecture ">78b6142f37f423006d33ded993990e45</to>
+        <sys_updated_on>2018-10-03 11:46:33</sys_updated_on>
+        <to display_value="Create Lecture Dates">f128f22b37bc23006d33ded993990ed0</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">3808742f377823006d33ded993990eab</condition>
-        <from display_value="Create Practicum Dates">a3e7b0ab377823006d33ded993990ed9</from>
+        <condition display_value="Always">3928b22b37bc23006d33ded993990ee9</condition>
+        <from display_value="Begin">ed28b22b37bc23006d33ded993990ee8</from>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 02:41:26</sys_created_on>
-        <sys_id>7c6b7c6f377823006d33ded993990e41</sys_id>
+        <sys_created_on>2018-10-03 11:59:49</sys_created_on>
+        <sys_id>c03bfa6b37bc23006d33ded993990ef6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 02:41:26</sys_updated_on>
-        <to display_value="End">30b6142f37f423006d33ded993990e48</to>
+        <sys_updated_on>2018-10-03 11:59:49</sys_updated_on>
+        <to display_value="Set Subject Capacity">b6e9fe2b37bc23006d33ded993990ec2</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">6f0a20e3377823006d33ded993990e0f</condition>
-        <from display_value="Create Practicum Groups">4d0a20a3377823006d33ded993990e50</from>
+        <condition display_value="Always">7128f22b37bc23006d33ded993990ecd</condition>
+        <from display_value="Create Practicum Groups">7928b22b37bc23006d33ded993990eec</from>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 02:41:25</sys_created_on>
-        <sys_id>9c6bfc2f377823006d33ded993990ef4</sys_id>
+        <sys_created_on>2018-10-03 11:46:33</sys_created_on>
+        <sys_id>fd28f22b37bc23006d33ded993990ed2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 02:41:25</sys_updated_on>
-        <to display_value="Create Practicum Dates">a3e7b0ab377823006d33ded993990ed9</to>
-    </wf_transition>
-    <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">f8b6142f37f423006d33ded993990e49</condition>
-        <from display_value="Check Attestation">3cb6142f37f423006d33ded993990e48</from>
-        <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:09</sys_created_on>
-        <sys_id>b4b6142f37f423006d33ded993990e4b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:09</sys_updated_on>
-        <to display_value="Create Attestion for each Student">b0b6142f37f423006d33ded993990e47</to>
-    </wf_transition>
-    <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">b8b6142f37f423006d33ded993990e46</condition>
-        <from display_value="Check Lecture ">78b6142f37f423006d33ded993990e45</from>
-        <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:17:20</sys_created_on>
-        <sys_id>f16a14e3373823006d33ded993990e70</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:17:20</sys_updated_on>
-        <to display_value="Create Lecture Dates">f0b6142f37f423006d33ded993990e44</to>
+        <sys_updated_on>2018-10-03 11:46:33</sys_updated_on>
+        <to display_value="Create Practicum Dates">f928f22b37bc23006d33ded993990ece</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>christopher.kremkow</sys_created_by>
-        <sys_created_on>2018-10-03 00:01:08</sys_created_on>
-        <sys_id>b4b6142f37f423006d33ded993990e41</sys_id>
+        <sys_created_on>2018-10-03 11:46:32</sys_created_on>
+        <sys_id>a528b22b37bc23006d33ded993990ee7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 00:01:08</sys_updated_on>
-        <workflow_version display_value="Set Dates to Subject">b0b6142f37f423006d33ded993990e41</workflow_version>
+        <sys_updated_on>2018-10-03 11:46:32</sys_updated_on>
+        <workflow_version display_value="Set Dates to Subject">e128b22b37bc23006d33ded993990ee7</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=06252d0f373423006d33ded993990ef2^sys_id!=b0b6142f37f423006d33ded993990e41">
+    <wf_workflow_version action="update_multiple" query="workflow=06252d0f373423006d33ded993990ef2^sys_id!=e128b22b37bc23006d33ded993990ee7">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

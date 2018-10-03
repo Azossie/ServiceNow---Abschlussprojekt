@@ -2,7 +2,16 @@
 <database>
     <element label="Practicum" max_length="40" name="x_270472_abschluss_practicum" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Day" max_length="12" name="u_day" type="string"/>
+        <element label="Endtime" max_length="40" name="u_endtime" type="string"/>
+        <element choice="1" label="Frequency" max_length="40" name="u_frequency" type="choice">
+            <choice>
+                <element label="Jede 2. Woche" value="2"/>
+                <element label="Jede Woche" value="1"/>
+            </choice>
+        </element>
         <element label="Name" max_length="60" name="u_name" type="string"/>
+        <element label="Starttime" max_length="40" name="u_starttime" type="string"/>
         <element label="Student_1" max_length="32" name="u_student_1" reference="x_270472_abschluss_student" type="reference"/>
         <element label="Student_10" max_length="32" name="u_student_10" reference="x_270472_abschluss_student" type="reference"/>
         <element label="Student_2" max_length="32" name="u_student_2" reference="x_270472_abschluss_student" type="reference"/>
