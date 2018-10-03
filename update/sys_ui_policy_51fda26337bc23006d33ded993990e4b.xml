@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_270472_abschluss_set_subject">u_practicum_day_1!=^u_practicum_time_start_1ISNOTEMPTY^practicum_time_end_1ISNOTEMPTY^u_practicum_day_2!=^u_practicum_time_start_2ISNOTEMPTY^u_practicum_time_end_2ISNOTEMPTY^u_practicum_frequence_1!=^u_practicum_frequence_2!=^EQ<item endquery="false" field="u_practicum_day_1" goto="false" newquery="false" operator="!=" or="false" value=""/>
+            <item endquery="false" field="u_practicum_time_start_1" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="practicum_time_end_1" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_practicum_day_2" goto="false" newquery="false" operator="!=" or="false" value=""/>
+            <item endquery="false" field="u_practicum_time_start_2" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_practicum_time_end_2" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_practicum_frequence_1" goto="false" newquery="false" operator="!=" or="false" value=""/>
+            <item endquery="false" field="u_practicum_frequence_2" goto="false" newquery="false" operator="!=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>200</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Enable Fields Practicum 3 for Professor in Set Subject Form if Practicum 1/2 are not empty</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-03 11:05:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>51fda26337bc23006d33ded993990e4b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Enable Fields Practicum 3 for Professor in Set Subject Form if Practicum 1/2 are not empty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+        <sys_update_name>sys_ui_policy_51fda26337bc23006d33ded993990e4b</sys_update_name>
+        <sys_updated_by>christopher.kremkow</sys_updated_by>
+        <sys_updated_on>2018-10-03 12:50:11</sys_updated_on>
+        <table>x_270472_abschluss_set_subject</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
