@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="6a288173373463006d33ded993990e5b" sys_domain="global" table="x_270472_abschluss_attend_to_exam" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
+            <sys_id>2f6c4537373463006d33ded993990ee0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
+            <sys_id>af6c4537373463006d33ded993990ee0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_student</element>
+            <position>2</position>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
+            <sys_id>236c4537373463006d33ded993990ee1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
+            <sys_id>a36c4537373463006d33ded993990ee1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_exam</element>
+            <position>4</position>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
+            <sys_id>276c4537373463006d33ded993990ee1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_270472_abschluss_attend_to_exam</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>christopher.kremkow</sys_created_by>
+            <sys_created_on>2018-10-03 22:15:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a288173373463006d33ded993990e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_270472_abschluss_attend_to_exam</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+            <sys_update_name>sys_ui_section_6a288173373463006d33ded993990e5b</sys_update_name>
+            <sys_updated_by>christopher.kremkow</sys_updated_by>
+            <sys_updated_on>2018-10-03 22:15:44</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

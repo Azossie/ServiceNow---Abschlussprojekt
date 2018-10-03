@@ -4,6 +4,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Practicum_Time_End_1" mandatory="true" max_length="40" name="practicum_time_end_1" type="glide_time"/>
         <element default="48" label="Capacity" mandatory="true" max_length="40" name="u_capacity" type="integer"/>
+        <element label="Exam_Date" max_length="40" name="u_exam_date" type="string"/>
         <element choice="1" label="Lecture Date" mandatory="true" max_length="40" name="u_lecture_date" type="choice">
             <choice>
                 <element label="Di 08.15 - 9.45 Uhr" value="2"/>

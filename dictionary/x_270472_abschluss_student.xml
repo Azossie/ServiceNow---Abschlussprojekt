@@ -3,11 +3,11 @@
     <element label="Student" max_length="40" name="x_270472_abschluss_student" type="collection">
         <element label="Behavior" max_length="32" name="u_behavior" reference="x_270472_abschluss_student_behavior" type="reference"/>
         <element label="Credits" max_length="40" name="u_credits" type="integer"/>
-        <element label="First Subject" max_length="32" name="u_first_subject" reference="x_270472_abschluss_subject" type="reference"/>
-        <element label="Fourth Subject" max_length="32" name="u_fourth_subject" reference="x_270472_abschluss_subject" type="reference"/>
-        <element label="Second Subject" max_length="32" name="u_second_subject" reference="x_270472_abschluss_subject" type="reference"/>
+        <element label="First Subject" max_length="32" name="u_first_subject" read_only="true" reference="x_270472_abschluss_subject" type="reference"/>
+        <element label="Fourth Subject" max_length="32" name="u_fourth_subject" read_only="true" reference="x_270472_abschluss_subject" type="reference"/>
+        <element label="Second Subject" max_length="32" name="u_second_subject" read_only="true" reference="x_270472_abschluss_subject" type="reference"/>
         <element label="Semester" max_length="40" name="u_semester" type="integer"/>
-        <element label="Third Subject" max_length="32" name="u_third_subject" reference="x_270472_abschluss_subject" type="reference"/>
+        <element label="Third Subject" max_length="32" name="u_third_subject" read_only="true" reference="x_270472_abschluss_subject" type="reference"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="User" max_length="32" name="u_user" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="u_second_subject"/>
