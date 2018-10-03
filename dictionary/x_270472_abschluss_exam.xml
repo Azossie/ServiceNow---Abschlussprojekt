@@ -2,7 +2,17 @@
 <database>
     <element label="Exam" max_length="40" name="x_270472_abschluss_exam" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Date" max_length="40" name="u_date" type="glide_date_time"/>
+        <element label="Date" max_length="40" name="u_date" type="string"/>
+        <element choice="1" label="Name" max_length="40" name="u_name" type="string">
+            <choice/>
+        </element>
+        <element choice="1" default="1" label="State" max_length="40" name="u_state" read_only="true" type="choice">
+            <choice>
+                <element label="Closed" value="3"/>
+                <element label="In Progress" value="1"/>
+                <element label="Open" value="2"/>
+            </choice>
+        </element>
         <element label="Subject" max_length="32" name="u_subject" reference="x_270472_abschluss_subject" type="reference"/>
         <index name="index">
             <element name="u_subject"/>

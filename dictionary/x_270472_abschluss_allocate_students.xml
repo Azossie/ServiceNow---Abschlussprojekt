@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Allocate Students" max_length="40" name="x_270472_abschluss_allocate_students" type="collection">
+        <element label="Allocate Student" max_length="32" name="u_allocate_student" reference="x_270472_abschluss_participants_subject" type="reference"/>
+        <index name="index">
+            <element name="u_allocate_student"/>
+        </index>
+    </element>
+</database>

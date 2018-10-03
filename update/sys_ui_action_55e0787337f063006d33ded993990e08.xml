@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Determine Subject to Student</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var gr = new GlideRecord('x_270472_abschluss_participants_subject');
+gr.orderBy('u_student');
+gr.query();
+
+var i = 0;
+while(gr.next()){
+	if(i == 0){
+	var gr1 = new GlideRecord('x_270472_abschluss_student');
+	gr1.addQuery('sys_id',gr.u_student.sys_id);
+	gr1.query();
+	gr1.next();	
+	gr1.setValue('u_first_subject',gr.u_subject);
+	gr1.update();
+	i++;
+	}
+	else if(i == 1){
+	var gr1 = new GlideRecord('x_270472_abschluss_student');
+	gr1.addQuery('sys_id',gr.u_student.sys_id);
+	gr1.query();
+	gr1.next();
+	gr1.setValue('u_second_subject',gr.u_subject);
+	gr1.update();
+	i++;
+	}
+	else if(i == 2){
+	var gr1 = new GlideRecord('x_270472_abschluss_student');
+	gr1.addQuery('sys_id',gr.u_student.sys_id);
+	gr1.query();
+	gr1.next();	
+	gr1.setValue('u_third_subject',gr.u_subject);
+	gr1.update();
+	i++;
+	}
+	else{
+	var gr1 = new GlideRecord('x_270472_abschluss_student');
+	gr1.addQuery('sys_id',gr.u_student.sys_id);
+	gr1.query();
+	gr1.next();	
+	gr1.setValue('u_fourth_subject',gr.u_subject);
+	gr1.update();
+	i = 0;
+	}
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>christopher.kremkow</sys_created_by>
+        <sys_created_on>2018-10-03 20:35:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55e0787337f063006d33ded993990e08</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Determine Subject to Student</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+        <sys_update_name>sys_ui_action_55e0787337f063006d33ded993990e08</sys_update_name>
+        <sys_updated_by>christopher.kremkow</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:31:19</sys_updated_on>
+        <table>x_270472_abschluss_allocate_students</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
