@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_270472_abschluss.practicum_user" name="x_270472_abschluss.practicum_user">98ccaed6377023006d33ded993990e0f</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
         <sys_created_on>2018-09-29 13:44:20</sys_created_on>

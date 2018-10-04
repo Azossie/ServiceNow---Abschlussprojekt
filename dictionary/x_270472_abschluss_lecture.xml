@@ -2,7 +2,7 @@
 <database>
     <element label="Lecture" max_length="40" name="x_270472_abschluss_lecture" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Date" max_length="40" name="u_date" type="glide_date_time"/>
+        <element label="Date" max_length="40" name="u_date" read_only="true" type="glide_date_time"/>
         <element label="Subject" max_length="32" name="u_subject" reference="x_270472_abschluss_subject" type="reference"/>
         <index name="index">
             <element name="u_subject"/>

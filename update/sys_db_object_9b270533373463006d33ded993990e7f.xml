@@ -24,16 +24,16 @@
         <sys_created_by>christopher.kremkow</sys_created_by>
         <sys_created_on>2018-10-03 22:11:37</sys_created_on>
         <sys_id>9b270533373463006d33ded993990e7f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Attend to Exam</sys_name>
         <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
         <sys_policy/>
         <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
         <sys_update_name>sys_db_object_9b270533373463006d33ded993990e7f</sys_update_name>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 22:13:15</sys_updated_on>
+        <sys_updated_on>2018-10-04 16:50:57</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_270472_abschluss.attend_to_exam_user" name="x_270472_abschluss.attend_to_exam_user">8e374533373463006d33ded993990e0a</user_role>
+        <user_role display_value="x_270472_abschluss.attend to exam" name="x_270472_abschluss.attend to exam">a867c98c374d63006d33ded993990e72</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

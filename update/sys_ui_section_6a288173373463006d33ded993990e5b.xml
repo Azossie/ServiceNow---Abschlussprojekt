@@ -2,72 +2,16 @@
 <record_update>
     <sys_ui_section caption="" section_id="6a288173373463006d33ded993990e5b" sys_domain="global" table="x_270472_abschluss_attend_to_exam" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>u_exam</element>
             <position>0</position>
             <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
-            <sys_id>2f6c4537373463006d33ded993990ee0</sys_id>
+            <sys_created_on>2018-10-04 17:14:56</sys_created_on>
+            <sys_id>82ecc104378d63006d33ded993990e64</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
             <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>1</position>
-            <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
-            <sys_id>af6c4537373463006d33ded993990ee0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
-            <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_student</element>
-            <position>2</position>
-            <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
-            <sys_id>236c4537373463006d33ded993990ee1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
-            <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>3</position>
-            <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
-            <sys_id>a36c4537373463006d33ded993990ee1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
-            <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_exam</element>
-            <position>4</position>
-            <sys_created_by>christopher.kremkow</sys_created_by>
-            <sys_created_on>2018-10-03 22:34:23</sys_created_on>
-            <sys_id>276c4537373463006d33ded993990ee1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_270472_abschluss_attend_to_exam" sys_domain="global" view="Default view">6a288173373463006d33ded993990e5b</sys_ui_section>
-            <sys_updated_by>christopher.kremkow</sys_updated_by>
-            <sys_updated_on>2018-10-03 22:34:23</sys_updated_on>
+            <sys_updated_on>2018-10-04 17:14:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

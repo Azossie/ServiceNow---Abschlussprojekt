@@ -23,10 +23,16 @@
         <name>Send Elective Course</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[///User Id = student id?
-//Credits müssen 50 sein
-current.u_state = 2;	
-current.update();]]></script>
+        <script><![CDATA[if(current.u_student.u_credits >= 50) {	
+	gs.addInfoMessage("Ihr Auswahl wurde abgeschickt");
+	current.current.u_student = gs.getUserID();
+	current.u_state = 2;
+	current.update();
+}
+else{
+	gs.addInfoMessage("Sie haben weniger als 50 Creditpoints und sind somit zur Wahlphase nicht zu gelassen");
+}
+]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -37,7 +43,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1b6fc60b37b423006d33ded993990e34</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>Send Elective Course</sys_name>
         <sys_overrides/>
         <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
@@ -45,7 +51,7 @@ current.update();]]></script>
         <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
         <sys_update_name>sys_ui_action_1b6fc60b37b423006d33ded993990e34</sys_update_name>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 11:05:34</sys_updated_on>
+        <sys_updated_on>2018-10-04 18:14:29</sys_updated_on>
         <table>x_270472_abschluss_elective_course</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

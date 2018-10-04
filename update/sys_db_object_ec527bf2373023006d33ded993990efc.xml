@@ -24,16 +24,16 @@
         <sys_created_by>christopher.kremkow</sys_created_by>
         <sys_created_on>2018-10-01 08:05:42</sys_created_on>
         <sys_id>ec527bf2373023006d33ded993990efc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Student Behavior</sys_name>
         <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
         <sys_policy/>
         <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
         <sys_update_name>sys_db_object_ec527bf2373023006d33ded993990efc</sys_update_name>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-01 08:05:43</sys_updated_on>
+        <sys_updated_on>2018-10-04 17:04:32</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_270472_abschluss.student_behavior_user" name="x_270472_abschluss.student_behavior_user">8762fff2373023006d33ded993990ec4</user_role>
+        <user_role display_value="x_270472_abschluss.student_behavior" name="x_270472_abschluss.student_behavior">077ac180378d63006d33ded993990eb6</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

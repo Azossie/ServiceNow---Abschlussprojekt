@@ -5,7 +5,7 @@
         <element choice="1" label="Exam" max_length="32" name="u_exam" reference="x_270472_abschluss_exam" type="reference">
             <choice/>
         </element>
-        <element label="Student" max_length="32" name="u_student" reference="x_270472_abschluss_student" type="reference"/>
+        <element default="javascript: gs.getUserID()" label="Student" max_length="32" name="u_student" reference="x_270472_abschluss_student" type="reference"/>
         <index name="index">
             <element name="u_student"/>
         </index>
