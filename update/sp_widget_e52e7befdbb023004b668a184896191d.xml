@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>sc</category>
+        <client_script><![CDATA[function($scope, $document, $rootScope) {
+  /* widget controller */
+  var c = this;
+	var isSaved = false;
+	var parent_g_form = $scope.page.g_form;
+	var origActionName;
+
+	if (parent_g_form)
+		addSaveHandler();
+	else
+		c.showSave = true;
+	
+	var g_form;
+	$scope.$on('spModel.gForm.initialized', function(e, gFormInstance){
+		g_form = gFormInstance;
+	});
+
+	// Used when embedded as a formatter
+	function addSaveHandler() {
+		parent_g_form.$private.events.on("submit", function() {
+			origActionName = parent_g_form.getActionName();
+			if (isSaved) return true;
+			if (!g_form.submit('none')) return false;
+
+			c.server.update().then(function() {
+				isSaved = true;
+				parent_g_form.submit(origActionName);
+			});
+
+			return false;
+		});
+	}
+
+	c.save = function() {
+		var activeElement = $document.activeElement;
+		if (activeElement)
+			activeElement.blur();
+		if (!g_form.submit('none'))
+			return false;
+		c.server.update().then(function() {
+			if (c.data.table == "sc_cart_item")
+				$rootScope.$broadcast("$sp.service_catalog.cart.update");
+		});
+	};
+	
+	c.hasVariables = function(fields) {
+		if (!fields) 
+			return false;
+		
+		return Object.keys(fields).length > 0;
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>bw_Copy of sp-variable-editor</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.table = options.table || $sp.getParameter("table");
+	data.sys_id = options.sys_id || $sp.getParameter("sys_id") || $sp.getParameter("sl_sys_id");
+
+	if (input) {
+		var vars = [];
+		var fields = input.sc_cat_item._fields;
+		data.sys_id = input.sys_id;
+		data.table = input.table;
+		var values = getValues(data.table, data.sys_id);
+		for (var v in fields) {
+			if (values[f].type == 12 || values[f].type == 19 || values[f].type == 20 || values[f].type == 24)
+					continue;
+			vars.push(fields[v]);
+		}
+
+		if (data.table == "sc_cart_item")
+			SPCart.updateItem(input.sys_id, vars);
+		else
+			$sp.saveVariables(input.table, input.sys_id, vars);
+	}
+
+	var gr = new GlideRecord(data.table);
+	if (gr.get(data.sys_id)) {
+		var targetTable = data.table;
+		if (targetTable == "sc_cart_item")
+			targetTable = "sc_cat_item";
+		data.sc_cat_item = $sp.getCatalogItem(gr.cat_item, !!options.isOrdering, targetTable);
+		if (options.showItemTitle)
+			data.itemTitle = data.sc_cat_item.short_description;
+		var values = getValues(data.table, data.sys_id);
+
+		for(var f in data.sc_cat_item._fields) {
+			// Put the values into the cat item fields
+			if (typeof values[f] != "undefined") {
+				if (values[f].type == 12 || values[f].type == 19 || values[f].type == 20 || values[f].type == 24)
+					continue;
+				if (typeof values[f].value != "undefined") {
+					if (values[f].type == 9 || values[f].type == 10)
+						data.sc_cat_item._fields[f].value = values[f].displayValue;
+					else
+						data.sc_cat_item._fields[f].value = values[f].value;
+					data.sc_cat_item._fields[f].displayValue = values[f].displayValue;
+					data.sc_cat_item._fields[f].display_value_list = values[f].display_value_list;
+				}
+			}
+		}
+	}
+	
+	function getValues(table, sys_id) {
+		var qs = new GlideappVariablePoolQuestionSet();
+		if (table == "sc_cart_item")
+			qs.setCartID(sys_id);
+		else
+			qs.setRequestID(sys_id);
+		
+		qs.load();
+		var values = {};
+		var questions = qs.getFlatQuestions().toArray();
+		for (var i = 0; i < questions.length; i++) {
+			var q = questions[i];
+			var o = {value: q.getValue(), displayValue: q.getDisplayValue(), type: q.getType()};
+			if (o.type == 21)
+				o.display_value_list = q.getDisplayValues().toArray();
+			
+			values["IO:" + q.getId()] = o;
+		}
+		return values;
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-03 16:52:22</sys_created_on>
+        <sys_id>e52e7befdbb023004b668a184896191d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>bw_Copy of sp-variable-editor</sys_name>
+        <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+        <sys_update_name>sp_widget_e52e7befdbb023004b668a184896191d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-03 16:52:38</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default" ng-if="::c.hasVariables(data.sc_cat_item._fields)">
+  <div class="panel-heading">
+    <h3 ng-if="data.itemTitle" class="panel-title">{{data.itemTitle}}</h3>
+    <h3 ng-if="!data.itemTitle" class="panel-title">${Variables}</h3>
+  </div>
+  <div class="panel-body">
+    <sp-model form-model="data.sc_cat_item" mandatory="[]"></sp-model>
+  </div>
+  <div ng-if="c.showSave" class="panel-footer">
+    <button class="btn btn-primary pull-right" name="save" ng-click="c.save()">${Save}</button>
+	  <div style="clear: both;"></div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

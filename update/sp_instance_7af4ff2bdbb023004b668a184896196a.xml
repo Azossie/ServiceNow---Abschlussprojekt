@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e8e43b2bdbb023004b668a18489619ae</sp_column>
+        <sp_widget display_value="Loginfeld">5e73161bdb3823004b668a1848961955</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-03 16:12:18</sys_created_on>
+        <sys_id>7af4ff2bdbb023004b668a184896196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+        <sys_update_name>sp_instance_7af4ff2bdbb023004b668a184896196a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-03 16:12:18</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=7af4ff2bdbb023004b668a184896196a"/>
+</record_update>

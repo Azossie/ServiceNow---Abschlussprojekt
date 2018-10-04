@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
         <sys_created_on>2018-10-03 15:51:54</sys_created_on>
-        <sys_id>7e20f3ab373063006d33ded993990ef0</sys_id>
+        <sys_id>3c8c0cb3db3423004b668a1848961901</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Frequency</sys_name>
         <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
         <sys_policy/>
         <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
         <sys_update_name>sys_dictionary_x_270472_abschluss_practicum_u_frequency</sys_update_name>
-        <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 15:51:54</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-03 17:55:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

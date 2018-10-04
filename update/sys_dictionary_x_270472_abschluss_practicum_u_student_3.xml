@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>christopher.kremkow</sys_created_by>
         <sys_created_on>2018-10-03 01:33:34</sys_created_on>
-        <sys_id>3dbbe4e3377823006d33ded993990e69</sys_id>
+        <sys_id>b48c0cb3db3423004b668a1848961907</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Student_3</sys_name>
         <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
         <sys_policy/>
         <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
         <sys_update_name>sys_dictionary_x_270472_abschluss_practicum_u_student_3</sys_update_name>
-        <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-03 01:33:34</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-03 17:55:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

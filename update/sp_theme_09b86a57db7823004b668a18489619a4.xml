@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <footer display_value="WMV Footer">8f98e257db7823004b668a1848961902</footer>
+        <footer_fixed>true</footer_fixed>
+        <header display_value="WMV Header">18786617db7823004b668a1848961984</header>
+        <name>WMV Theme</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-02 16:00:57</sys_created_on>
+        <sys_id>09b86a57db7823004b668a18489619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WMV Theme</sys_name>
+        <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+        <sys_update_name>sp_theme_09b86a57db7823004b668a18489619a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-02 16:00:57</sys_updated_on>
+    </sp_theme>
+</record_update>
