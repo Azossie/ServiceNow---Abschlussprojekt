@@ -141,7 +141,7 @@ a.color_box .fa {
         <name>Icon Link Clone for Profs</name>
         <option_schema>[{"name":"link_template","section":"Presentation","label":"Template","type":"choice","choices":[{"label":"Top Icon","value":"Top Icon"},{"label":"Circle Icon","value":"Circle Icon"},{"label":"Color Box","value":"Color Box"}]}]</option_schema>
         <public>true</public>
-        <roles>admin,x_270472_abschluss.professor_user</roles>
+        <roles>admin</roles>
         <script><![CDATA[(function(){
 	var gr = $sp.getInstanceRecord();
 	data.href = $sp.getMenuHREF(gr);

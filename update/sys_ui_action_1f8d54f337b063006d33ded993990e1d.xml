@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments/>
-        <condition>current.u_state  == 1 &amp;&amp; new AllreadyJoinedPracticum().initialize() != true</condition>
+        <condition>current.u_state  == 1 &amp;&amp; new AllreadyJoinedPracticum().initialize() != true &amp;&amp; new AllreadyJoinedDifferentGroup().initialize() != true</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -24,51 +24,60 @@
         <onclick/>
         <order>100</order>
         <script><![CDATA[if(current.u_student_1.nil()){
-	addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemldet");
+	gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 	current.u_student_1 = gs.getUserID();
 	current.update();
 }
 else{
 	if(current.u_student_2.nil()){
+		gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 		current.u_student_2 = gs.getUserID();
 		current.update();
 	}
 	else{
 		if(current.u_student_3.nil()){
+			gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 			current.u_student_3 = gs.getUserID();
 			current.update();
 		}
 		else{
 			if(current.u_student_4.nil()){
+				gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 				current.u_student_4 = gs.getUserID();
 				current.update();
 			}
 			else{
 				if(current.u_student_5.nil()){
+					gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 					current.u_student_5 = gs.getUserID();
 					current.update();
 				}
 				else{
 					if(current.u_student_6.nil()){
+						gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 						current.u_student_6 = gs.getUserID();
 						current.update();
 					}
 					else{
 						if(current.u_student_7.nil()){
+							gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 							current.u_student_7 = gs.getUserID();
 							current.update();
 						}
 						else{
 							if(current.u_student_8.nil()){
+								gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 								current.u_student_8 = gs.getUserID();
 								current.update();
 							}
 							else{
 								if(current.u_student_9.nil()){
+									gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 									current.u_student_9 = gs.getUserID();
 									current.update();
 								}
 								else{
+									gs.addInfoMessage("Sie haben sich erfolgreich für das Praktikum angemeldet");
 									current.u_student_10 = gs.getUserID();
 									current.u_state = 2;
 									current.update();
@@ -91,7 +100,7 @@ else{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1f8d54f337b063006d33ded993990e1d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Join</sys_name>
         <sys_overrides/>
         <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
@@ -99,7 +108,7 @@ else{
         <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
         <sys_update_name>sys_ui_action_1f8d54f337b063006d33ded993990e1d</sys_update_name>
         <sys_updated_by>christopher.kremkow</sys_updated_by>
-        <sys_updated_on>2018-10-04 13:51:32</sys_updated_on>
+        <sys_updated_on>2018-10-04 15:38:52</sys_updated_on>
         <table>x_270472_abschluss_practicum</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
