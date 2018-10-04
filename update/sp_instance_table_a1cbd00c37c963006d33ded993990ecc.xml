@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>u_subject,u_student_1,u_student_2,u_student_3,u_student_4,u_student_5,u_student_6,u_student_7,u_student_8,u_student_9,u_student_10</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">63f9d88837c963006d33ded993990efa</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-04 13:40:17</sys_created_on>
+        <sys_id>a1cbd00c37c963006d33ded993990ecc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ihre Kursteilnehmer</sys_name>
+        <sys_package display_value="Abschlussprojekt" source="x_270472_abschluss">513a4e71372023006d33ded993990e90</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Abschlussprojekt">513a4e71372023006d33ded993990e90</sys_scope>
+        <sys_update_name>sp_instance_table_a1cbd00c37c963006d33ded993990ecc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-04 13:45:11</sys_updated_on>
+        <table>x_270472_abschluss_practicum</table>
+        <title>Ihre Kursteilnehmer</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1cbd00c37c963006d33ded993990ecc"/>
+</record_update>
