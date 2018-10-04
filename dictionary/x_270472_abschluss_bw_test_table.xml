@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="bw_test_table" max_length="40" name="x_270472_abschluss_bw_test_table" type="collection">
-        <element default="null" label="Test C1" max_length="40" name="test_c1" type="string"/>
-    </element>
-</database>
